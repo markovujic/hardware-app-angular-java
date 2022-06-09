@@ -1,0 +1,52 @@
+<h2>Promjena Hardvera</h2>
+<div>
+  <h3>Uredi hardver</h3>
+  <div>
+    <label>Šifra:
+      <div>
+        <input [(ngModel)]="hardware.code" />
+      </div>
+    </label>
+  </div>
+  <div>
+    <label>Naziv:
+      <div>
+        <input [(ngModel)]="hardware.name" />
+      </div>
+    </label>
+  </div>
+  <div>
+    <label>Tip:
+      <div>
+        <select [(ngModel)]="hardware.type">
+          <option value="CPU">CPU</option>
+          <option value="GPU">GPU</option>
+          <option value="MBO">MBO</option>
+          <option value="RAM">RAM</option>
+          <option value="STORAGE">Pohrana podataka</option>
+          <option value="OTHER">Ostalo</option>
+        </select>
+      </div>
+    </label>
+  </div>
+  <div>
+    <label>Broj komada na stanju:
+      <div>
+        <input type="number" [(ngModel)]="hardware.stock" />
+      </div>
+    </label>
+  </div>
+  <div>
+    <label>Cijena:
+      <div>
+        <input type="number" [(ngModel)]="hardware.price" />
+      </div>
+    </label>
+  </div>
+
+  <button (click)="save()"> 
+    Uredi hardver
+  </button>
+
+  <button (click)="goBack()">go back</button>
+</div>

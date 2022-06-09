@@ -1,0 +1,62 @@
+{
+  "language": {
+    "croatian": "hrvaški",
+    "english": "angleščina",
+    "slovenian": "slovan",
+    "currentLanguage": "Jezik aplikacije: slovan"
+  },
+  "login": {
+    "title": "Aplikacija strojne opreme",
+    "subtitle": "HW APP",
+    "login": "Vpiši se",
+    "username": "Uporabniško ime",
+    "usernamePlaceholder": "Vnesite uporabniško ime",
+    "password": "Geslo",
+    "passwordPlaceholder": "Vnesite geslo",
+    "btnLogin": "Vpiši se",
+    "error": "Pri prijavi je prišlo do napake, preverite svoje uporabniško ime in geslo ter poskusite znova.",
+    "logged": "Prijavljeni ste kot:",
+    "logout": "Preveri"
+  },
+  "homeCom": {
+    "title": "Aplikacija strojne opreme",
+    "hardware": "Strojna oprema"
+  },
+  "hardwareCom": {
+    "title": "Strojna oprema",
+    "newHardware": "Vnesite novo strojno opremo"
+  },
+  "newHardwareCom": {
+    "title": "Vnos strojne opreme",
+    "subtitle": "Vnesite novo strojno opremo",
+    "code": "Koda:",
+    "name": "Ime:",
+    "type": "Tip:",
+    "stock": "Število kosov na zalogi:",
+    "price": "Cena:",
+    "btn": {
+      "add": "Vnesite strojno opremo",
+      "back": "Pridi nazaj"
+    }
+  },
+  "hardwareDetailCom": {
+    "title": "Podrobnosti o",
+    "price": "Cena:",
+    "pay": "To strojno opremo je mogoče kupiti v 6 obrokih.",
+    "reviews": {
+      "title": "Ocene za to strojno opremo:",
+      "noReviews": "Trenutno ni ocen za to strojno opremo."
+    },
+    "btn": {
+      "back": "Pridi nazaj"
+    }
+  },
+  "pageNotFoundCom": {
+    "title": "Zahtevane strani ni bilo mogoče najti",
+    "back": "Nazaj na domačo stran"
+  },
+  "forbiddenPageCom": {
+    "title": "Nimate pravice dostopa do zahtevane strani!",
+    "back": "Nazaj na domačo stran"
+  }
+}

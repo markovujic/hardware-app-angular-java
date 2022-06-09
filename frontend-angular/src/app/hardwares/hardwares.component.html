@@ -1,0 +1,31 @@
+<h2> {{'hardwareCom.title' |translate}} </h2>
+<ul class="hardwares">
+  <li *ngFor="let hardware of hardwares">
+    <a routerLink="/detail/{{hardware.code}}">
+      <span class="badge">{{hardware.code}} 🖥️</span> {{hardware.name}}
+    </a>
+    
+    <div *ngIf="isUserAdmin">
+      <button class="delete" title="delete hardware"
+              (click)="delete(hardware)">x
+      </button>
+      <button class="reduce" title="delete hardware"
+              (click)="reduceStock(hardware)">-
+      </button>
+      <button class="add" title="delete hardware"
+              (click)="addStock(hardware)">+
+      </button>
+      <div class="stock"> {{hardware.stock}} </div>
+      
+    </div>
+  </li>
+  
+</ul>
+<div class="new">
+  <button *ngIf="isUserAdmin" (click)="newHardware()">
+    {{'hardwareCom.newHardware' | translate}}
+  </button>
+  <button *ngIf="isUserCreator" (click)="newHardware()">
+    {{'hardwareCom.newHardware' | translate}}
+  </button>
+</div>

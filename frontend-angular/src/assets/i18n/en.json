@@ -1,0 +1,62 @@
+{
+  "language": {
+    "croatian": "croatian",
+    "english": "english",
+    "slovenian": "slovenian",
+    "currentLanguage": "App language: english"
+  },
+  "login": {
+    "title": "Hardware App",
+    "subtitle": "HW APP",
+    "login": "Login",
+    "username": "Username",
+    "usernamePlaceholder": "Enter username",
+    "password": "Password",
+    "passwordPlaceholder": "Enter password",
+    "btnLogin": "Login",
+    "error": "There was an error logging in, please check your username and password and try again.",
+    "logged": "You are logged in as:",
+    "logout": "Log out"
+  },
+  "homeCom": {
+    "title": "Hardware App",
+    "hardware": "Hardware"
+  },
+  "hardwareCom": {
+    "title": "Hardware",
+    "newHardware": "Enter new hardware"
+  },
+  "newHardwareCom": {
+    "title": "Hardware input",
+    "subtitle": "Enter new hardware",
+    "code": "Code:",
+    "name": "Name:",
+    "type": "Type:",
+    "stock": "Number of pieces in stock:",
+    "price": "Price:",
+    "btn": {
+      "add": "Enter the hardware",
+      "back": "Go back"
+    }
+  },
+  "hardwareDetailCom": {
+    "title": "Details about",
+    "price": "Price:",
+    "pay": "This hardware can be purchased in 6 partial payments.",
+    "reviews": {
+      "title": "Reviews for this hardware:",
+      "noReviews": "There are currently no reviews for this hardware."
+    },
+    "btn": {
+      "back": "Go back"
+    }
+  },
+  "pageNotFoundCom": {
+    "title": "Page not found",
+    "back": "Return to home page"
+  },
+  "forbiddenPageCom": {
+    "title": "You do not have permission to access the requested page!",
+    "back": "Return to home page"
+  }
+}

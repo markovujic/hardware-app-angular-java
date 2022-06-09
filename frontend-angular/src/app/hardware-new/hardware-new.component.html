@@ -1,0 +1,54 @@
+<h2>{{'newHardwareCom.title' | translate}}</h2>
+<div>
+  <h3>{{'newHardwareCom.subtitle' | translate}}</h3>
+  <div>
+    <label>{{'newHardwareCom.code' | translate}}
+      <div>
+        <input #code />
+      </div>
+    </label>
+  </div>
+  <div>
+    <label>{{'newHardwareCom.name' | translate}}
+      <div>
+        <input #name />
+      </div>
+    </label>
+  </div>
+  <div>
+    <label>{{'newHardwareCom.type' | translate}}
+      <div>
+        <select #type >
+          <option value="CPU">CPU</option>
+          <option value="GPU">GPU</option>
+          <option value="MBO">MBO</option>
+          <option value="RAM">RAM</option>
+          <option value="STORAGE">Pohrana podataka</option>
+          <option value="OTHER">Ostalo</option>
+        </select>
+      </div>
+    </label>
+  </div>
+  <div>
+    <label>{{'newHardwareCom.stock' | translate}}
+      <div>
+        <input type="number" #stock />
+      </div>
+    </label>
+  </div>
+  <div>
+    <label>{{'newHardwareCom.price' | translate}}
+      <div>
+        <input type="number" #price />
+      </div>
+    </label>
+  </div>
+
+  <button (click)="add(code.value, name.value, type.value, +stock.value, +price.value); code.value=''; name.value=''; type.value='CPU'; stock.value=''; price.value=''">
+    {{'newHardwareCom.btn.add' | translate}}
+  </button>
+
+  <button (click)="goBack()">
+    {{'newHardwareCom.btn.back' | translate}}
+  </button>
+</div>

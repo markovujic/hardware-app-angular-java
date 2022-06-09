@@ -1,0 +1,64 @@
+{
+  "language": {
+    "croatian": "hrvatski",
+    "english": "engleski",
+    "slovenian": "slovenski",
+    "currentLanguage": "Jezik aplikacije: hrvatski"
+  },
+  "login": {
+    "title": "Hardver Aplikacija",
+    "subtitle": "HW APP",
+    "login": "Prijava",
+    "username": "Korisničko ime",
+    "usernamePlaceholder": "Unesite korisničko ime",
+    "password": "Lozinka",
+    "passwordPlaceholder": "Unesite lozinku",
+    "btnLogin": "Prijava",
+    "error": "Došlo je do pogreške prilikom prijave, provjerite uneseno korisničko ime i lozinku te pokušajte ponovno.",
+    "logged": "Prijavljeni ste kao:",
+    "logout": "Odjava"
+  },
+  "homeCom": {
+    "title": "Hardver Aplikacija",
+    "hardware": "Hardveri"
+  },
+  "hardwareCom": {
+    "title": "Hardveri",
+    "newHardware": "Unesi novi hardver"
+  },
+  "newHardwareCom": {
+    "title": "Unos Hardvera",
+    "subtitle": "Unesi novi hardver",
+    "code": "Šifra:",
+    "name": "Naziv:",
+    "type": "Tip:",
+    "stock": "Broj komada na stanju:",
+    "price": "Cijena:",
+    "btn": {
+      "add": "Unesi hardver",
+      "back": "Vrati se"
+    }
+  },
+  "hardwareDetailCom": {
+    "title": "Detalji o",
+    "price": "Cijena:",
+    "pay": "Ovaj hardver se može kupiti na 6 rata.",
+    "reviews": {
+      "title": "Recenzije za ovaj hardver:",
+      "noReviews": "Trenutno nema recenzija za ovaj hardver."
+    },
+    "btn": {
+      "back": "Vrati se"
+    }
+  },
+  "pageNotFoundCom": {
+    "title": "Tražena stranica nije pronađena",
+    "back": "Povratak na početnu stranicu"
+  },
+  "forbiddenPageCom": {
+    "title": "Nemate pravo pristupa traženoj stranici!",
+    "back": "Povratak na početnu stranicu"
+  }
+  
+  
+}
